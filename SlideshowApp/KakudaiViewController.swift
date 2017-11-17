@@ -20,7 +20,7 @@ class KakudaiViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        //初期読み込み画像
+        //渡された画像
         let image = UIImage(named: imagePass!)
         imageView.image = image
     }
