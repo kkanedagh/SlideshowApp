@@ -93,10 +93,11 @@ class ViewController: UIViewController {
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         // 他の画面から segue を使って戻ってきた時に呼ばれる
         
-        //画面遷移する前に表示していた画像を上書き
-        //self.dispImageNo = self.pastDispImageNo
-        
-        //スライドショーを開始する
+        //スライドショーが画面遷移に起動していた場合は開始する
+        if(self.isPlay) {
+            //2秒ごとにupdateSlideを実行
+            self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(updateSlide), userInfo: nil, repeats: true)
+        }
         
     }
     
@@ -121,9 +122,10 @@ class ViewController: UIViewController {
         // 遷移先のKakudaiViewControllerで宣言しているimageに値を代入して渡す
         kakudaiViewController.imagePass = self.imageNameArray[self.dispImageNo]
         
-        //self.pastDispImageNo = self.dispImageNo
-        
-        //スライドショーを一時停止する
+        //スライドショーが起動していた場合は停止する
+        if(self.isPlay) {
+            self.timer.invalidate()
+        }
     }
     
     //配列番号を元に画像を表示する
