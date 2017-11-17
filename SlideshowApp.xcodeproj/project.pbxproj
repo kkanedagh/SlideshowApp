@@ -14,6 +14,11 @@
 		0C750DF51FB9A0A100C884F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C750DF31FB9A0A100C884F9 /* LaunchScreen.storyboard */; };
 		0C750E001FB9A0A100C884F9 /* SlideshowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C750DFF1FB9A0A100C884F9 /* SlideshowAppTests.swift */; };
 		0C750E0B1FB9A0A100C884F9 /* SlideshowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C750E0A1FB9A0A100C884F9 /* SlideshowAppUITests.swift */; };
+		0C750E191FB9A3A500C884F9 /* KakudaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C750E181FB9A3A500C884F9 /* KakudaiViewController.swift */; };
+		0C750E1B1FB9B5EE00C884F9 /* abura1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C750E1A1FB9B5EE00C884F9 /* abura1.jpg */; };
+		0C750E1D1FB9B5F900C884F9 /* abura2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C750E1C1FB9B5F900C884F9 /* abura2.jpg */; };
+		0C750E1F1FB9B60100C884F9 /* abura3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C750E1E1FB9B60100C884F9 /* abura3.jpg */; };
+		0C750E211FB9B60900C884F9 /* sp1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C750E201FB9B60900C884F9 /* sp1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		0C750E061FB9A0A100C884F9 /* SlideshowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideshowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C750E0A1FB9A0A100C884F9 /* SlideshowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideshowAppUITests.swift; sourceTree = "<group>"; };
 		0C750E0C1FB9A0A100C884F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C750E181FB9A3A500C884F9 /* KakudaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KakudaiViewController.swift; sourceTree = "<group>"; };
+		0C750E1A1FB9B5EE00C884F9 /* abura1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abura1.jpg; sourceTree = "<group>"; };
+		0C750E1C1FB9B5F900C884F9 /* abura2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abura2.jpg; sourceTree = "<group>"; };
+		0C750E1E1FB9B60100C884F9 /* abura3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abura3.jpg; sourceTree = "<group>"; };
+		0C750E201FB9B60900C884F9 /* sp1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		0C750DE91FB9A0A100C884F9 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				0C750E1A1FB9B5EE00C884F9 /* abura1.jpg */,
+				0C750E1C1FB9B5F900C884F9 /* abura2.jpg */,
+				0C750E1E1FB9B60100C884F9 /* abura3.jpg */,
+				0C750E201FB9B60900C884F9 /* sp1.jpg */,
 				0C750DEA1FB9A0A100C884F9 /* AppDelegate.swift */,
 				0C750DEC1FB9A0A100C884F9 /* ViewController.swift */,
 				0C750DEE1FB9A0A100C884F9 /* Main.storyboard */,
+				0C750E181FB9A3A500C884F9 /* KakudaiViewController.swift */,
 				0C750DF11FB9A0A100C884F9 /* Assets.xcassets */,
 				0C750DF31FB9A0A100C884F9 /* LaunchScreen.storyboard */,
 				0C750DF61FB9A0A100C884F9 /* Info.plist */,
@@ -233,6 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C750DF51FB9A0A100C884F9 /* LaunchScreen.storyboard in Resources */,
+				0C750E1F1FB9B60100C884F9 /* abura3.jpg in Resources */,
+				0C750E1B1FB9B5EE00C884F9 /* abura1.jpg in Resources */,
+				0C750E211FB9B60900C884F9 /* sp1.jpg in Resources */,
+				0C750E1D1FB9B5F900C884F9 /* abura2.jpg in Resources */,
 				0C750DF21FB9A0A100C884F9 /* Assets.xcassets in Resources */,
 				0C750DF01FB9A0A100C884F9 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C750E191FB9A3A500C884F9 /* KakudaiViewController.swift in Sources */,
 				0C750DED1FB9A0A100C884F9 /* ViewController.swift in Sources */,
 				0C750DEB1FB9A0A100C884F9 /* AppDelegate.swift in Sources */,
 			);
