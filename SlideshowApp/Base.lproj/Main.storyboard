@@ -46,7 +46,7 @@
                                     <action selector="onSlide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wQv-a3-7Fp"/>
                                 </connections>
                             </button>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0EY-EK-GvI">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0EY-EK-GvI">
                                 <rect key="frame" x="10" y="30" width="300" height="180"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -100,27 +100,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D7O-JN-38G">
+                                <rect key="frame" x="26" y="30" width="268" height="306"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="yt9-69-L8S"/>
+                                    <constraint firstAttribute="height" constant="306" id="z0I-yu-FJh"/>
+                                </constraints>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPO-n7-mIE">
-                                <rect key="frame" x="144.5" y="508" width="31" height="30"/>
+                                <rect key="frame" x="145" y="528" width="31" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <segue destination="lUB-Z3-mqm" kind="unwind" unwindAction="unwind:" id="YWa-wL-2xG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D7O-JN-38G">
-                                <rect key="frame" x="26" y="30" width="268" height="448"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="D7O-JN-38G" firstAttribute="top" secondItem="qLW-b0-Gvc" secondAttribute="bottom" constant="10" id="4gV-y7-xNw"/>
-                            <constraint firstItem="D7O-JN-38G" firstAttribute="centerX" secondItem="Dlk-Bl-WRt" secondAttribute="centerX" id="GzO-NX-Jy5"/>
                             <constraint firstItem="HPO-n7-mIE" firstAttribute="centerX" secondItem="Dlk-Bl-WRt" secondAttribute="centerX" id="Izc-GC-zUI"/>
-                            <constraint firstItem="bsa-hx-bBf" firstAttribute="top" secondItem="HPO-n7-mIE" secondAttribute="bottom" constant="30" id="JeW-g9-ULl"/>
-                            <constraint firstItem="HPO-n7-mIE" firstAttribute="top" secondItem="D7O-JN-38G" secondAttribute="bottom" constant="30" id="WHr-fw-8Eb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="D7O-JN-38G" secondAttribute="trailing" constant="10" id="wXW-pA-fW5"/>
-                            <constraint firstItem="D7O-JN-38G" firstAttribute="leading" secondItem="Dlk-Bl-WRt" secondAttribute="leadingMargin" constant="10" id="wom-T9-YNh"/>
+                            <constraint firstItem="bsa-hx-bBf" firstAttribute="top" secondItem="HPO-n7-mIE" secondAttribute="bottom" constant="10" id="lxQ-0T-ULg"/>
+                            <constraint firstItem="D7O-JN-38G" firstAttribute="centerX" secondItem="Dlk-Bl-WRt" secondAttribute="centerX" id="uPK-7m-fyq"/>
                         </constraints>
                     </view>
                     <connections>
